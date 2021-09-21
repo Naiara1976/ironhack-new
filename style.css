@@ -1,0 +1,18 @@
+/* Comments */
+h1 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+*{
+    color: crimson;
+}
+.subtitle {
+    color: cyan;
+}
+#msg {
+    color: rgb(255, 0, 255);
+}
