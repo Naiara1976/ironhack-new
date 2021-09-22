@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>naiara</title>
-    </head>
-    <body>
-        <!-- <h1></h1> -->
-        <section>
-        <div><img width="50" src="https://tinyurl.com/figma-image" alt="Figma icon"> 
-            </div>
-        <nav>
-            <a href="https://www.google.com/" target="__blank">Visit Google</a>
-            <a>Visit Ironhack</a>
-        </nav>
-        <div><video width="500" autoplay loop>
-            <source src="https://tinyurl.com/figma-main-video" type="video/mp4">
-          </video></div>
-        <p>Figma connects everyone in the design process so teams can deliver better products, faster.</p>
-        <a href="https://www.ironhack.com/de/berlin?utm_source=google&utm_medium=cpc&utm_campaign=sb_eur_BER__&utm_content=search-brand&utm_campaign=%5BTP%5D%5BDE%20%7C%20Search%20%7C%20Standard%5D%5BBrand%20-%20BER%5D&utm_source=google&utm_medium=cpc&utm_content=0%20-%20Brand%20BER&utm_term=ironhack&utm_source=google&utm_medium=cpc&utm_campaign=sb_eur_BER__&utm_content=search-brand&gclid=CjwKCAjw4qCKBhAVEiwAkTYsPPjhoWbLikW9CALkI9jlZQUhPfLk_PYVjpL9pckfdnKRY2mffylI4hoCme0QAvD_BwE" target="__blank"><button>Try Figma for free</button></a>
-        </section>
-        <div><video width="500" controls autoplay loop>
-            <source src="https://tinyurl.com/figma-middle-1" type="video/mp4">
-        </video></div>
-        <ul>
-            <li>Get food</li>
-            <li>Get brad</li>
-            <li>Get this</li>
-        </ul> 
-    </body>
+	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Figma Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
+        <script src="https://kit.fontawesome.com/4fab488e2b.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	</head>
+	<body>
+	    <header>
+            <img width="40" src="https://tinyurl.com/figma-image" alt="Figma icon"> 
+            <nav>
+                <a href="#oscar"><i class="ri-home-line"></i>Product</a>
+                <a href="#oscar2">Platform</a>
+                <a href="#oscar3">Design</a>
+                <a href="#oscar4">Community</a>
+                <a href="" target="__blank"><button>Sign up</button></a>
+            </nav>
+	    </header>
+	    <main>
+            <section>
+                <video id="first" autoplay loop>
+                    <source src="https://tinyurl.com/figma-main-video" type="video/mp4">
+                  </video>
+                <p class="subtitle">Figma connects everyone in the design process so teams can deliver better products, faster</p>
+                <button>Try Figma for free</button>
+            </section>
+            <section>
+                <video id="second" controls autoplay loop>
+                    <source src="https://tinyurl.com/figma-middle-1" type="video/mp4">
+                </video> 
+                <h2 id="oscar">Design for the web made easy</h2>
+                <p class="web">Figma was built for the future of web. That’s why you’ll see features you won’t find elsewhere.</p>
+                <ul class="web">
+                    <li>A modern pen tool: Draw in any direction with Vector Networks. No more merging or needing to connect to the path's original point.</li>
+                    <li>Instant arc designs: Design clocks, watch screens, or pie charts easily with the Arc tool.</li>
+                    <li>Be expressive with OpenType: ap into advanced font features to fully express your brand</li>
+                </ul>
+            </section>
+            <section class="yellow">
+                <div id="yellows"><h1 id="oscar2">A design platform for scale</h1>
+                <p>Great design has the potential to differentiate your product and brand. But great design can’t happen in a silo. Figma brings product teams together for a faster and inclusive design workflow.</p>
+                <button>Request a demo</button></div>
+                <video width="500" controls autoplay loop>
+                    <source src="https://tinyurl.com/figma-org" type="video/mp4">
+                </video>
+            </section>
+            <section>
+                <video id="second" controls autoplay loop>
+                    <source src="https://tinyurl.com/figma-middle-2" type="video/mp4">
+                </video> 
+                <h2 id="oscar3">Automate and augment your work with Plugins</h2>
+                <p class="web">Remove repetitive tasks, bring in data, and power custom workflows.</p>
+                <ul class="web">
+                    <li>Plugins for everything: Stock imagery, flow diagrams, color accessibility, charts, icons, and more.</li>
+                    <li>Easy development: If you can build a website, you can build a plugin.</li>
+                    <li>Private plugins: Organization customers can create and distribute private plugins within their company.</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="oscar4">Join the community</h2>
+                <p>Learn from others, share your work, and extend your tool set with a diverse group of designers, plugin creators, researchers, illustrators, content writers, and many more from around the world.</p>
+                <div><img width="500" src="https://tinyurl.com/fig-community-1" alt="Figma community1">
+                <img width="500" src="https://tinyurl.com/fig-community-2" alt="Figma community2">
+                <img width="500" src="https://tinyurl.com/fig-community-3" alt="Figma community3"></div>
+                <button>Browse Figma Community</button>
+            </section>
+            <section>
+                <h1>Try Figma for free</h1>
+                <button>Continue with Google</button>
+                <p>or</p>
+                <form action="/action_page.php">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button>Create Account</button>
+                  </form> 
+            </section>
+	    </main>
+	    <footer>
+	        <!-- Follow the steps in Part 3 for this section-->
+	    </footer>  
+</body>
 </html>

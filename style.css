@@ -1,18 +1,80 @@
 /* Comments */
-h1 {
-    color: blueviolet;
-    text-decoration: underline;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth; 
 }
-p{
-    font-size: 20px;
+header {
+    margin: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 24px;
     font-weight: 400;
+    color: black;
+    padding: 8px 16px;
+    cursor: auto;
 }
-*{
-    color: crimson;
+a:hover{
+    text-decoration: underline;
+    color:black
+    cursor: auto;
 }
-.subtitle {
-    color: cyan;
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding: 14px 24px 16px;
+    cursor: auto;
+}
+
+#first{
+    width: 750px;
+}
+#second{
+    width: 550px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+.web {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 500px;
+}
+.yellow {
+    background-color:#ffc700;
+    margin-top: 100px;
+}
+#yellows {
+    max-width: 550px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+p {
+    font-size: 20px; 
+    max-width: 500px;
+    line-height: 26px;
 }
 #msg {
     color: rgb(255, 0, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.naiara{
+    color: yellowgreen;
+    font-size: 12px;
 }
