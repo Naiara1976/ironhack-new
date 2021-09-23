@@ -1,7 +1,7 @@
 /* Comments */
 body, html {
     margin: 0;
-    padding: 0;
+    padding: 0px 30px ;
     font-family: sans-serif;
     scroll-behavior: smooth; 
 }
@@ -31,12 +31,19 @@ button{
     padding: 14px 24px 16px;
     cursor: auto;
 }
-
+.subtitle{
+    text-align: center;
+    padding-bottom: 20px;
+}
 #first{
     width: 750px;
 }
 #second{
     width: 550px;
+    padding-right: 30px;
+}
+#third {
+    max-width: 500px;
 }
 h2 {
     font-size: 32px;
@@ -52,12 +59,17 @@ h2 {
 .yellow {
     background-color:#ffc700;
     margin-top: 100px;
+    padding: 40px 20px 40px 60px;
 }
 #yellows {
     max-width: 550px;
+    padding-right: 20px;
+}
+#oscar3{
+    max-width: 550px;
 }
 h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 32px;
@@ -67,14 +79,178 @@ p {
     max-width: 500px;
     line-height: 26px;
 }
-#msg {
-    color: rgb(255, 0, 255);
+.black {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 70px 30px 50px 30px;
+}
+.center{
+    text-align: center;
+    max-width: 800px;
+}
+.images{
+    border-radius: 10px;
+    max-width: 400px;
+    object-fit: contain;
+}
+.imageblock{
+    padding: 40px, 0px;
+}
+.white {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 50px;
+}
+.form {
+    margin: 40px 50px;
+}
+input {
+    margin: 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    text-decoration-color: #282828;
+    padding-left: 12px;
+}
+footer{
+    background-color: #fafafa;
+    padding: 80px 40px 80px 40px;
+
+}
+footer section{
+    margin: 50px;
 }
 header{
     display: flex;
     justify-content: space-between;
 }
-.naiara{
-    color: yellowgreen;
-    font-size: 12px;
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.design{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px 80px 0px;
+
+}
+.black{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.black img {
+    margin: 0px 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px 120px 40px;
+
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.fa-twitter{
+    margin-right: 8px;
+}
+.fa-youtube{
+    margin-right: 8px;
+}
+.fa-instagram-square{
+    margin-right: 10px;
+}
+.fa-facebook-square{
+    margin-right: 10px;
+}
+button:hover {
+    box-shadow: 5px 20px 20px rgb(158, 158, 158);
+    /* transform: rotate(15deg); */
+    /* transform: scale(1.1); */
+    /* transform: skew(15deg); */
+    transform: translateY(-5px);
+}
+@media (max-width: 600px){
+    html, body {
+        padding: 20px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+   header img {
+        width: 18px;
+    }
+    p {
+        font-size: 19px;
+    }  
+    #first {
+        max-width: 400px;
+    }
+    #second {
+        max-width: 400px;
+    }
+    #third {
+        max-width: 300px;
+        justify-content: center;
+    }
+    ul li {
+        font-size: 17px;
+    }  
+   .web {
+        font-size: 17px;
+    } 
+    h1 {
+        font-size: 32px;
+    } 
+    h2 {
+        font-size: 28px;
+    }
+    button {
+        font-size: 15px;
+    } 
+    .product{
+        display:flex;
+        flex-direction: column;
+    }
+    .yellow{
+        display:flex;
+        flex-direction: column;
+    }
+    .design{
+        display:flex;
+        flex-direction: column;
+    }
+    .black{
+        display:flex;
+        flex-direction: column;
+    }
+    footer {
+        display:flex;
+        flex-direction: column;
+    }
 }
